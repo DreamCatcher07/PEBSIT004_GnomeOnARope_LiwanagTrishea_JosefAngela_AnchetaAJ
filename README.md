@@ -43,8 +43,7 @@ A 2D platformer-style game where the player controls a gnome swinging on a rope 
 
 ## PowerPoint Step-by-Step on how we make the Gnome's Well 
 -  [Step-by-step development ppt link: ([https://www.canva.com/design/DAGySpl5Yyo/of6ojc1eKN9I0LDaHz7ubA/edit?utm_content=DAGySpl5Yyo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton])  
-- Subtitles file: `subtitles/GnomeOnARope_subtitles.srt`
-
+  
 ---
 
 ## Group Members & Contribution
