@@ -1,79 +1,79 @@
-# Third-Party Code and Assets Attribution
+# Third-Party Code, Assets, and Tools Attribution
 
-This project is based on examples and assets from the book:
+This project is based on examples, scripts, and assets from third-party sources. All materials were used for educational purposes in compliance with the requirements of **PEBSIT004**.
+
+---
+
+## A. Code Scripts
+
+The following scripts were adapted or referenced from:
+
+- Valente, Francesco Sapio. *Mobile Game Development with Unity*. Packt Publishing, 2015.
+
+| Script | Source | Purpose |
+|------|--------|---------|
+| **GameManager.cs** | Book | Controls game state (start, reset, win/lose, respawn, camera follow) |
+| **SignalOnTouch.cs** | Book | Handles collision-triggered UnityEvents |
+| **Rope.cs / RopeSegment.cs** | Book | Rope physics and gnome attachment |
+| **KillGnome.cs** | Book | Handles player death on trap collision |
+| **Treasure.cs** | Book | Marks treasure as collected |
+| **Exit.cs** | Book | Checks win condition |
+| **MenuManager.cs** | Book | Controls start, pause, and game over menus |
+
+
+---
+
+## B. Art Assets (Sprites)
+
+All 2D visual assets were sourced from the book:
+
+- Gnome ragdoll sprites (head, arms, legs, torso)
+- Trap sprites (spikes, blades)
+- Treasure chest sprite
+- Background tiles
+
+**Source:** *Mobile Game Development with Unity*  
+**License:** Educational use
+
+---
+
+## C. Audio Assets
+
+- Sound effects (trap hit, death, treasure pickup, UI sounds)
+
+**Source:** *Mobile Game Development with Unity*  
+**License:** Educational use
+
+---
+
+## D. Software, Tools, and Development Platforms
+
+The following software and tools were used during development, documentation, and presentation:
+
+| Software / Tool | Purpose |
+|----------------|---------|
+| **Unity 6.2 (6000.2.2f1)** | Game engine |
+| **Unity Hub** | Project and version management |
+| **C#** | Programming language |
+| **Blender (LTS)** | 3D modeling and asset creation |
+| **Microsoft Word** | Documentation writing |
+| **Microsoft PowerPoint / Canva** | Step-by-step presentation |
+| **Google Drive** | Video and release.zip |
+
+
+---
+
+## E. References
 
 - Valente, Francesco Sapio. *Mobile Game Development with Unity*. Packt Publishing, 2015.  
-- All scripts and assets originally provided by the book are cited below. They were used as references or included in this project, sometimes with modifications for the requirements of PEBSIT004.
+- Unity Technologies. *Unity Documentation*.  
+- Blender Foundation. *Blender Documentation*.  
+- Additional tutorials and resources used during development.
 
 ---
 
-##  Code Scripts
+## F. Notes
 
-- **GameManager.cs**  
-  Source: *Mobile Game Development with Unity (Book)*  
-  Purpose: Manages game state (reset, win/lose, respawn, camera follow).
-
-- **SignalOnTouch.cs**  
-  Source: *Mobile Game Development with Unity (Book)*  
-  Purpose: Invokes UnityEvents when the gnome collides with traps, treasure, or exit.
-
-- **Rope.cs / RopeSegment.cs**  
-  Source: *Mobile Game Development with Unity (Book)*  
-  Purpose: Rope physics, generation, extension/retraction, and gnome attachment.
-
-- **KillGnome.cs**  
-  Source: *Mobile Game Development with Unity (Book)*  
-  Purpose: Handles collision with spikes, blades, traps.
-
-- **Treasure.cs**  
-  Source: *Mobile Game Development with Unity (Book)*  
-  Purpose: Marks gnome as holding treasure when collected.
-
-- **Exit.cs**  
-  Source: *Mobile Game Development with Unity (Book)*  
-  Purpose: Checks win condition (gnome must hold treasure before exit).
-
-- **MenuManager.cs**  
-  Source: *Mobile Game Development with Unity (Book)*  
-  Purpose: Manages start screen, pause menu, and game over screen.
-
----
-
-##  Sprites (Assets/Sprites/)
-- **Gnome sprites (ragdoll parts: head, arms, legs, torso)**  
-  Source: *Mobile Game Development with Unity (Book)*  
-  License: Educational use  
-
-- **Trap sprites (spikes, blades, traps)**  
-  Source: *Mobile Game Development with Unity (Book)*  
-  License: Educational use  
-
-- **Treasure chest sprite**  
-  Source: *Mobile Game Development with Unity (Book)*  
-  License: Educational use  
-
-- **Backgrounds / tiles (book)**  
-  Source: *Mobile Game Development with Unity (Book)*  
-  License: Educational use  
-
----
-
-##  Sounds (Assets/Sounds/) 
-
-- **Sound effects (trap hit, death, treasure pickup, etc.)**  
-  Source: *Mobile Game Development with Unity (Book)*  
-  License: Educational use  
-
----
-
-##  References
-- Valente, Francesco Sapio. *Mobile Game Development with Unity*. Packt Publishing, 2015.  
-- Any additional websites, tutorials, or asset stores consulted.  
-
----
-
-##  Notes
-- All third-party code and assets from the book are cited here.  
-- Some assets/scripts may have been modified for the project (naming, size, color, or added functionality).  
-- All other work (project setup, gameplay logic, narration, documentation, presentation) is original by **[Your Name]**.  
-
+- All third-party code and assets are fully cited.
+- Modifications were made for educational purposes only.
+- All original gameplay logic, documentation, narration, and presentation were created by the development team.
